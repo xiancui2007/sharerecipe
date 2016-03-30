@@ -1,0 +1,92 @@
+header, footer, nav, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   border: 0;
+}
+
+header{
+  color: #993300;
+  background-color: white;
+}
+
+nav, footer {
+  color: #B0B0B0;
+  background-color: #006699;
+  padding: 0.5em;
+}
+footer a {color: white}
+footer p {font-size: 13px}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display:inline-block;
+}
+nav a:hover {background-color: #FF9900}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #FF9900;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 150px;
+  display: none;
+  z-index: 3
+}
+ul li ul li { 
+  background: #FF9900; 
+  display: block; 
+}
+ul li ul li a {display:block;} 
+ul li ul li a:hover {background: #FF6600;}
+
+h1, h2, h3 {
+ font-family: "Lobster", Georgia, Cambria, "Times New Roman", cursive;
+ margin: 10px
+}
+h1 { font-size: 250%; }
+h2 { font-size: 150%; }
+h3 { font-size: 125% } 
+
+#main img {width: 20%; height: 20%;min-width: 110px}
+#box img {width: 30%; height: 30%; max-width: 100%; min-width: 130px} 
+
+
+
+body {
+ font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+div#container {position: relative;}
+aside {
+  color: black;
+  background-color: #D3C6BA;
+  font-size: 0.7em;
+  padding: 0em;  
+  width: 35%;
+  max-width: 13em;
+  position: absolute;
+right: 0px;
+top: -100px;
+}
+p.big {
+	display: inline-block;
+   margin: 15px;
+   padding: 5px;
+   font-family: "Lobster", Georgia, Cambria, "Times New Roman", cursive;
+   font-size: 125%
+}
+p.big:hover {background-color:orange;}
+#box { 
+   border: 1pt solid black;
+   margin: 3px 3px 10px 3px;
+   padding: 5px;
+}   
+

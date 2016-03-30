@@ -1,0 +1,88 @@
+header, footer, nav,  h1, h2,  ul, li, body, p, img
+{
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   border: 0;
+}
+
+header{
+  color: #993300;
+  background-color: white;
+}
+
+nav, footer {
+  color: #B0B0B0;
+  background-color: #006699;
+  padding: 0.4em;
+}
+footer a {color: white;font-size: 13px;}
+footer p {font-size: 12px}
+nav a {
+
+    color: white;
+    font-size: 15px;
+    display:inline-block;
+}
+nav a:active, footer a:active {color:red;}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 150px;
+  display: none;
+  z-index: 3
+}
+ul li ul li { 
+  background: #FF9900; 
+  display: block; 
+}
+ul li ul li a {display:block;} 
+ul li ul li a:active {color:red;}
+
+h1, h2, caption {
+ font-family: "Lobster", Georgia, Cambria, "Times New Roman", cursive;
+ margin: 10px
+}
+h1 { font-size: 150%; }
+h2 { font-size: 120%; }
+caption {font-size: 100%;}
+
+td img {width: 20%; min-width: 180px;}
+ 
+body {
+ font-family: 'Lato', Helvetica, Arial, sans-serif;
+ font-size: 90%
+}
+tbody {
+background-color: #F0F0F0;
+}
+td, th {
+padding: 0.3em;
+text-align:center;
+width: 15%;
+}
+td li, td p {
+  text-align:left;
+}
+th {
+background-color: #FF9900;
+}
+
+#backtohome {
+text-align: center;
+display: block;
+margin: 3px;
+font-family: "Lobster", Georgia, Cambria, "Times New Roman", cursive;
+}   
+
+
+

@@ -1,0 +1,62 @@
+header, footer, nav, form, ul, li, body, p
+{
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   border: 0;
+}
+
+header{
+  color: #993300;
+  background-color: white;
+}
+
+nav, footer {
+  color: #B0B0B0;
+  background-color: #006699;
+  padding: 0.4em;
+}
+footer a {color: white;font-size: 13px;}
+footer p {font-size: 12px}
+nav a {
+
+    color: white;
+    font-size: 15px;
+    display:inline-block;
+}
+nav a:active, footer a:active {color:red;}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 150px;
+  display: none;
+  z-index: 3
+}
+ul li ul li { 
+  background: #FF9900; 
+  display: block; 
+}
+ul li ul li a {display:block;} 
+ul li ul li a:active {color:red;}
+
+h1, legend, #backtohome {
+ font-family: "Lobster", Georgia, Cambria, "Times New Roman", cursive;
+ margin: 10px;}
+h1 { font-size: 150%; }
+fieldset { border:8px solid orange}
+legend {font-size: 100%;}
+textarea {width: 100%; max-width: 505px;height: 200px}
+body {
+ font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+form {width: 100%;}
+p {margin: 0px}
+.error {color: #FF0000;}
